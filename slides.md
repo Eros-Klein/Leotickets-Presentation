@@ -1,24 +1,17 @@
 ---
 theme: seriph
 background: https://cover.sli.dev
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-  Learn more at [Sli.dev](https://sli.dev)
+title: Fortschritte - Der Ballkönig
+info: Eine Präsentation über die Fortschritte des Ballkönigs
 drawings:
   persist: false
 transition: slide-left
 mdc: true
 ---
 
-# Die Lösung: Leotickets
+# Die Lösung: Der Ballkönig
 
-Hallo ich bin du
-
-<!--
-Meine Notes
--->
+Hallo ich bin du, der Präsentator.
 
 ---
 transition: slide-left
