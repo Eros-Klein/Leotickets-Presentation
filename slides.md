@@ -7,7 +7,21 @@ drawings:
 transition: slide-left
 ---
 
-# Erste Seite
+# Präsentation startet sogleich....
+
+---
+
+<div class="flex justify-evenly items-center h-full">
+  <img src="./assets/story/couch.svg" alt="couch" class="w-50 bg-purple-300/75 rounded-lg aspect-square" />
+  <Arrow class="text-purple-700" x1="425" y1="275" x2="550" y2="275" />
+  <img src="./assets/story/cry.png" alt="cry" class="w-50 bg-purple-300/75 rounded-lg" />
+  <span class="text-purple-700 position-absolute bottom-20 font-bold text-2xl bg-purple-300/20 p-2 rounded-lg">
+    <span class="text-3xl">Ballarbeiter</span> = <span class="text-3xl">Unglücklich</span>
+  </span>
+  <span class="text-purple-700 position-absolute top-20 font-bold text-2xl bg-purple-300/20 p-2 rounded-lg">
+    <span class="text-3xl">Benutzer</span> = <span class="text-3xl">Unglücklich</span>
+  </span>
+</div>
 
 ---
 layout: intro
@@ -19,12 +33,19 @@ introImage: './assets/logo.png'
 Nur das Beste vom Besten
 
 ---
+layout: table-contents
+gradientColors: ['#8EC5FC', '#E0C3FC']
+---
 
-# Die Vision
+# Die Vision 
 
-- Für immer
-- Für alle
-- Für alles
+<br>
+
+⏳ - Für immer
+
+👥 - Für alle
+
+🎯 - Für alles
 
 ---
 
