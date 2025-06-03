@@ -1,20 +1,23 @@
 ---
-theme: seriph
-background: https://cover.sli.dev
+theme: unicorn
 title: Fortschritte - Der Ballkönig
 info: Eine Präsentation über die Fortschritte des Ballkönigs
 drawings:
   persist: false
 transition: slide-left
-mdc: true
 ---
 
-# Die Lösung: Der Ballkönig
-
-Hallo ich bin du, der Präsentator.
+# Erste Seite
 
 ---
-transition: slide-left
+layout: intro
+introImage: './assets/logo.png'
+---
+
+# Die Lösung: <span class="font-bold">Der Ballkönig</span>
+
+Nur das Beste vom Besten
+
 ---
 
 # Die Vision
@@ -42,8 +45,6 @@ transition: slide-left
   </div>
 </div>
 
----
-transition: slide-left
 ---
 
 # Die Architektur

@@ -11,6 +11,9 @@
     "@slidev/cli": "^51.8.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "slidev-theme-purplin": "^1.2.0",
+    "slidev-theme-unicorn": "^1.1.2",
+    "vite-svg-loader": "^5.1.0",
     "vue": "^3.5.14"
   }
 }
