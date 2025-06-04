@@ -67,6 +67,27 @@ gradientColors: ['#8EC5FC', '#E0C3FC']
 </div>
 
 ---
+layout: center
+---
+
+# Das Team
+<div class="flex gap-4 justify-evenly w-full">
+  <FoundingFathers />
+  <div class="flex flex-row justify-evenly items-center gap-4 position-relative p-5 pt-25">
+    <PersonFrame img="./assets/people/minihuber.png" name="Konstantin Minihuber" role="Fullstack" />
+    <PersonFrame img="./assets/people/bernhofer.png" name="Moritz Bernhofer" role="Hardware" />
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# Live Demo
+
+<LiveDemoRedirect />
+
+---
 
 # Die Architektur
 
@@ -94,3 +115,65 @@ gradientColors: ['#8EC5FC', '#E0C3FC']
 ├── README.md
 └── turbo.json
 ```
+
+---
+layout: table-contents
+gradientColors: ['#8EC5FC', '#E0C3FC']
+---
+
+# Zukunftsaussichten
+
+<br>
+
+- 💰 - Online Checkout
+- 📱 - Scanner Gerät
+- 🎫 - Kartendesigner
+
+---
+layout: center
+---
+
+# Roadmap
+
+<Roadmap :data="[
+  {
+    time: '2024-10-01',
+    title: 'Projektstart',
+    description: 'Projektstart',
+    color: 'bg-purple-500'
+  },
+  {
+    time: '2025-02-01',
+    title: 'Verkaufsstart 24',
+    description: 'Erster öffentlicherw Einsatz',
+    color: 'bg-purple-500'
+  },
+  {
+    time: '2025-09-07',
+    title: 'Zweite Version',
+    description: 'Neues Team konfiguriert',
+    color: 'bg-purple-500'
+  },
+  {
+    time: '2025-12-24',
+    title: 'Verkaufsstart 25',
+    description: 'Mit Kartenzahlung',
+    color: 'bg-purple-500'
+  },
+  {
+    time: '2026-03-04',
+    title: 'Maturaball 26',
+    description: 'Eintritt mit Kartenscan',
+    color: 'bg-purple-500'
+  }
+]" />
+
+---
+layout: end
+---
+
+# Dankeschön!
+Ihr Ballkönig Team
+<div class="flex flex-row justify-center items-center gap-4">
+  <img src="./assets/logo.png" alt="Logo" class="w-20 rounded-full" />
+</div>
