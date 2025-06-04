@@ -117,19 +117,6 @@ layout: center
 ```
 
 ---
-layout: table-contents
-gradientColors: ['#8EC5FC', '#E0C3FC']
----
-
-# Zukunftsaussichten
-
-<br>
-
-- 💰 - Online Checkout
-- 📱 - Scanner Gerät
-- 🎫 - Kartendesigner
-
----
 layout: center
 ---
 
@@ -167,6 +154,19 @@ layout: center
     color: 'bg-purple-500'
   }
 ]" />
+
+---
+layout: table-contents
+gradientColors: ['#8EC5FC', '#E0C3FC']
+---
+
+# Zukunftsaussichten
+
+<br>
+
+- 💰 - Online Checkout
+- 📱 - Scanner Gerät
+- 🎫 - Kartendesigner
 
 ---
 layout: end
