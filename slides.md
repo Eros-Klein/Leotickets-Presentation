@@ -43,28 +43,18 @@ gradientColors: ['#8EC5FC', '#E0C3FC']
 
 ⏳ - Für immer
 
-👥 - Für alle
+👥 - Einfach Konfigurierbar
 
-🎯 - Für alles
+🎯 - Keine nervigen Karten
 
 ---
+layout: image-center
+image: './assets/tool/plan.png'
+imageWidth: '750'
+imageHeight: '750'
+---
 
-# Technologien
-
-<div class="flex gap-4 w-full justify-evenly h-full items-center">
-  <div class="flex flex-col items-center">
-    <img class="w-20" src="./assets/react.svg" alt="React" />
-    <p class="text-center">React</p>
-  </div>
-  <div class="flex flex-col items-center">
-    <img class="w-20" src="./assets/angular.svg" alt="Angular" />
-    <p class="text-center">Angular</p>
-  </div>
-  <div class="flex flex-col items-center">
-    <img class="w-20" src="./assets/quarkus.svg" alt="Quarkus" />
-    <p class="text-center">Quarkus</p>
-  </div>
-</div>
+### 🛠️ Technologien
 
 ---
 layout: center
@@ -75,7 +65,7 @@ layout: center
   <FoundingFathers />
   <div class="flex flex-row justify-evenly items-center gap-4 position-relative p-5 pt-25">
     <PersonFrame img="./assets/people/minihuber.png" name="Konstantin Minihuber" role="Fullstack" />
-    <PersonFrame img="./assets/people/bernhofer.png" name="Moritz Bernhofer" role="Hardware" />
+    <PersonFrame img="./assets/people/bernhofer.png" name="Moritz Bernhofer" role="Hardware + Backend" />
   </div>
 </div>
 
@@ -88,33 +78,13 @@ layout: center
 <LiveDemoRedirect />
 
 ---
+layout: image-center
+image: './assets/tool/tool.png'
+imageWidth: '450'
+imageHeight: '950'
+---
 
-# Die Architektur
-
-```sh
-├── apps
-│   ├── Client
-│   │   ├── Dashboard (React-Admin-Dashboard)
-│   │   │   └── ...
-│   │   └── Web (Angular-Web-Frontend)
-│   │       └── ...
-│   └── Server (Quarkus)
-│       ├── api
-│       │   └── ...
-│       ├── interface
-│       │   └── ...
-│       ├── logic
-│       │   └── ...
-│       └── service
-│           └── ...
-├── Docker (Docker-Configuration)
-│   └── docker-compose.yml
-├── package.json
-├── packages
-│   └── ...
-├── README.md
-└── turbo.json
-```
+# Das Gerät
 
 ---
 layout: center
@@ -132,7 +102,7 @@ layout: center
   {
     time: '2025-02-01',
     title: 'Verkaufsstart 24',
-    description: 'Erster öffentlicherw Einsatz',
+    description: 'Erster öffentlicher Einsatz',
     color: 'bg-purple-500'
   },
   {
@@ -154,6 +124,16 @@ layout: center
     color: 'bg-purple-500'
   }
 ]" />
+
+---
+layout: table-contents
+gradientColors: ['#8EC5FC', '#E0C3FC']
+---
+
+# Errungenschaften
+
+- 🎉 - Erfolgreicher Einsatz 2025
+- 👥 - Verwendung für nächstes Jahr sichergestellt
 
 ---
 layout: table-contents
